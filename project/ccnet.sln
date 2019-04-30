@@ -1,5 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9CC052DF-2AFB-4A27-BB68-F8C27C5BA0C8}"
 	ProjectSection(SolutionItems) = preProject
 		..\Tools\ccnet-help.inc.build = ..\Tools\ccnet-help.inc.build
@@ -160,5 +162,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4EACA29-C63F-43EE-BD8B-49BC707FB2DB}
 	EndGlobalSection
 EndGlobal
