@@ -6,7 +6,7 @@ NLF v6
 -
 -
 # Codepage - dash (-) means ANSI code page
--
+1252
 # RTL - anything else than RTL means LTR
 -
 # Translation by the French NSIS team <veekee@winampfr.com> - http://www.winampfr.com/nsis.
@@ -56,27 +56,27 @@ Annuler
 # ^CloseBtn
 &Fermer
 # ^BrowseBtn
-&Parcourir...
+P&arcourir...
 # ^ShowDetailsBtn
 P&lus d'infos
 # ^ClickNext
-Cliquez Suivant pour continuer.
+Cliquez sur Suivant pour continuer.
 # ^ClickInstall
-Cliquez Installer pour démarrer l'installation.
+Cliquez sur Installer pour démarrer l'installation.
 # ^ClickUninstall
-Cliquez Désinstaller pour démarrer la désinstallation.
+Cliquez sur Désinstaller pour démarrer la désinstallation.
 # ^Name
 Nom
 # ^Completed
 Terminé
 # ^LicenseText
-Veuillez examiner le contrat de licence avant d'installer $(^NameDA). Si vous acceptez tous les termes du contrat, cliquez J'accepte.
+Veuillez examiner le contrat de licence avant d'installer $(^NameDA). Si vous acceptez tous les termes du contrat, cliquez sur J'accepte.
 # ^LicenseTextCB
 Veuillez examiner le contrat de licence avant d'installer $(^NameDA). Si vous acceptez tous les termes du contrat, cochez la boîte de contrôle ci-dessous. $_CLICK
 # ^LicesnseTextRB
 Veuillez examiner le contrat de licence avant d'installer $(^NameDA). Si vous acceptez tous les termes du contrat, sélectionnez la première option ci-dessous. $_CLICK
 # ^UnLicenseText
-Veuillez examiner le contrat de licence avant de désinstaller $(^NameDA). Si vous acceptez tous les termes du contrat, cliquez J'accepte.
+Veuillez examiner le contrat de licence avant de désinstaller $(^NameDA). Si vous acceptez tous les termes du contrat, cliquez sur J'accepte.
 # ^UnLicenseTextCB
 Veuillez examiner le contrat de licence avant de désinstaller $(^NameDA). Si vous acceptez tous les termes du contrat, cochez la boîte de contrôle ci-dessous. $_CLICK
 # ^UnLicesnseTextRB
@@ -86,7 +86,7 @@ Personnalisée
 # ^ComponentsText
 Cochez les composants que vous désirez installer et décochez ceux que vous ne désirez pas installer. $_CLICK
 # ^ComponentsSubText1
-Sélectionnez le type d'installation :
+Type d'installation :
 # ^ComponentsSubText2_NoInstTypes
 Sélectionnez les composants à installer :
 # ^ComponentsSubText2
@@ -98,15 +98,15 @@ Sélectionnez le type de désinstallation :
 # ^UnComponentsSubText2_NoInstTypes
 Sélectionnez les composants à désinstaller :
 # ^UnComponentsSubText2
-Ou, sélectionnez les composants optionnels que vous voulez déinstaller :
+Ou, sélectionnez les composants optionnels que vous voulez désinstaller :
 # ^DirText
-Ceci installera $(^NameDA) dans le dossier suivant. Pour installer dans un autre dossier, cliquez Parcourir et choisissez un autre dossier. $_CLICK
+Ceci installera $(^NameDA) dans le dossier suivant. Pour installer dans un autre dossier, cliquez sur Parcourir et choisissez un autre dossier. $_CLICK
 # ^DirSubText
 Dossier d'installation
 # ^DirBrowseText
 Sélectionnez le dossier d'installation pour $(^NameDA) :
 # ^UnDirText
-Ceci désinstallera $(^NameDA) du dossier suivant. Pour désinstaller d'un autre dossier, cliquez Parcourir et choisissez un autre dossier. $_CLICK
+Ceci désinstallera $(^NameDA) du dossier suivant. Pour désinstaller d'un autre dossier, cliquez sur Parcourir et choisissez un autre dossier. $_CLICK
 # ^UnDirSubText
 ""
 # ^UnDirBrowseText
